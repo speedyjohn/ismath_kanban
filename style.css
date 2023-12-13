@@ -1,0 +1,129 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: "Montserrat" !important;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  background: #000000;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.table {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.table h1 {
+  font-family: "Montserrat", sans-serif !important;
+}
+.table .column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.table .title {
+  background: #584FC8 !important;
+  border-bottom: none !important;
+}
+.table .title h1, .table .title h2 {
+  font-size: 22px !important;
+  font-weight: 600;
+  color: white !important;
+}
+.table .element {
+  background: #18181A;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+.table .element h1 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.table .element h2 {
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.table .col-1 .element {
+  border-bottom: 1px solid #ffc107;
+}
+.table .col-1 .element h1 {
+  color: #ffc107;
+}
+.table .col-2 .element {
+  border-bottom: 1px solid #007bff;
+}
+.table .col-2 .element h1 {
+  color: #007bff;
+}
+.table .col-3 .element {
+  border-bottom: 1px solid #28a745;
+}
+.table .col-3 .element h1 {
+  color: #28a745;
+}
+.table .col-4 .element {
+  border-bottom: 1px solid #dc3545;
+}
+.table .col-4 .element h1 {
+  color: #dc3545;
+}
+
+/*# sourceMappingURL=style.css.map */
